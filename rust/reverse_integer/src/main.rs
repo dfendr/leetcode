@@ -17,7 +17,6 @@ impl Solution {
             }
         };
 
-        // Crashes on overflow
         let mut rev = str
             .chars()
             .rev()
